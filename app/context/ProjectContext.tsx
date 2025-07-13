@@ -86,6 +86,21 @@ const projects: Project[] = [
         description:
             "An interactive karaoke platform that integrates with YouTube API to provide a seamless singing experience. Features real-time lyrics, song search, and user session management.",
     },
+    {
+        id: "6",
+        title: "Board Planner",
+        url: "https://board-planner.vercel.app/login",
+        tags: [
+            "Next.js",
+            "Tailwind",
+            "Shadcn UI",
+            "Firebase",
+            "Recharts",
+            "Vercel",
+        ],
+        description:
+            "A modern study planner and analytics dashboard for licensure exam review. Features PIN-based login, subject and video management, dynamic progress tracking, calendar scheduling, streaks, and motivational quotes. Visualize your study and break time with interactive charts, and stay on track with recent activity feeds and personalized statistics.",
+    },
 ];
 
 export function ProjectProvider({ children }: { children: ReactNode }) {
