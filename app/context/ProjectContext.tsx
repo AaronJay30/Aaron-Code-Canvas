@@ -101,6 +101,21 @@ const projects: Project[] = [
         description:
             "A modern study planner and analytics dashboard for licensure exam review. Features PIN-based login, subject and video management, dynamic progress tracking, calendar scheduling, streaks, and motivational quotes. Visualize your study and break time with interactive charts, and stay on track with recent activity feeds and personalized statistics.",
     },
+    {
+        id: "7",
+        title: "Harap Lente Photobooth",
+        url: "https://harap-lente.vercel.app/",
+        tags: [
+            "Next.js",
+            "Tailwind",
+            "Shadcn UI",
+            "Firebase",
+            "Camera API",
+            "Vercel",
+        ],
+        description:
+            "A modern photobooth web app for events and parties. Features live camera preview, customizable photo sessions, countdown timer, vintage overlays, and instant photo strip generation. Users can download and share their photo strips, with session data securely managed via Firebase. Optimized for mobile and desktop with a stylish, retro-inspired UI.",
+    },
 ];
 
 export function ProjectProvider({ children }: { children: ReactNode }) {
